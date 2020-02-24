@@ -1443,6 +1443,8 @@ color:white;
                     .RegBox .form-group{
                         position: relative;
                         margin: 0px 0px 20px 0px;
+                        width:100%;
+                        float: none;
                     }
                     .RegBox .form-control{
                         padding: 6px 20px 6px 40px;
@@ -1453,13 +1455,13 @@ color:white;
                         height: 50px;
                         border-radius: 3px;
                         border: 2px solid #d6d9dd;
-                        width:65%;
+                        width:100%;
                     }
                     .RegBox .form-group i{
                         position: absolute;
                         width: 16px;
                         height: 18px;
-                        right: 18px;
+                        left: 18px;
                         top: 16px;
                         background-repeat: no-repeat;
                         background-position: bottom;
