@@ -20,6 +20,7 @@ body{direction: ltr;
     color:white;
     text-align: left;
     position: relative;
+    overflow-x: hidden;
 }
 img{
     width:100%;
@@ -1308,6 +1309,13 @@ button.navbar-toggler {
         width: 91%;
         height: 3px;
    
+    }
+    .custom-file{
+        display: block !important;
+        margin-top:20px;
+    }
+    .chzn-drop{
+        overflow-x: hidden;
     }
     @-webkit-keyframes nav1 {
         50% {
