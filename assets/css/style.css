@@ -296,9 +296,9 @@ color:#F7941E;
     padding-bottom:140px;
     position: relative;
 }
-.tomohLetterright{
+.tomohLetterleft{
     position: absolute;
-    right:0;
+    left:0;
     bottom: 0;
     width:35%;
 }
@@ -2195,7 +2195,7 @@ text-align: left;
 
 }
 .profileMenu li .profiledropDown::after {
-    content: "\ea44";
+    content: "\ea46";
     font-family: LineIcons;
     border: 0;
     font-size: 10px;
