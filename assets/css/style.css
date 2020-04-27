@@ -2248,7 +2248,7 @@ text-align: left;
     .adminForm .form-control{
 width:100%;
     }
-    .admminmarginleft.form-group{
+    .admminmarginRight.form-group{
         margin-left:62px;
     }
     .admintextarea{
@@ -2556,7 +2556,7 @@ color:#7c013f
     .adminForm .form-group{
         width:100%;
     }
-    .admminmarginleft.form-group{
+    .admminmarginRight.form-group{
         margin-left:0;
     }
     .adminForm .send{
