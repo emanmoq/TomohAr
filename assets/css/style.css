@@ -2598,6 +2598,9 @@ color:#7c013f
     .testText p{
         color:#515151
     }
+    #innerBody.ourFamily{
+        padding:50px 0;
+    }
 @media(min-width:320px)and (max-width:767px){
     .adminForm .form-group{
         width:100%;
