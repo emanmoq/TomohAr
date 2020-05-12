@@ -1012,7 +1012,7 @@ text-decoration: underline;
     text-align: center;
     background: white;
     -webkit-transform: translate3d(0, 0, 0);
-            transform: translate3d(0, 0, 0);
+     transform: translate3d(0, 0, 0);
   }
   .can-toggle input[type="checkbox"][disabled] ~ label {
     color: rgba(119, 119, 119, 0.5);
@@ -1059,8 +1059,8 @@ text-decoration: underline;
     box-shadow: 0 3px 3px rgba(0, 0, 0, 0.4);
   }
   .can-toggle input[type="checkbox"]:checked ~ label .can-toggle__switch:after {
-    -webkit-transform: translate3d(65px, 0, 0);
-            transform: translate3d(65px, 0, 0);
+    -webkit-transform: translate3d(-65px, 0, 0);
+            transform: translate3d(-65px, 0, 0);
   }
   .can-toggle input[type="checkbox"]:checked:focus ~ label .can-toggle__switch:after, .can-toggle input[type="checkbox"]:checked:hover ~ label .can-toggle__switch:after {
     box-shadow: 0 3px 3px rgba(0, 0, 0, 0.4);
@@ -1778,7 +1778,7 @@ transition: all .5s;;
         font-size: 12px;
     }
     .EventListDesc{
-        padding: 30px 0px 30px 0;
+        padding: 30px 20px;
     }
     
     .EventListDesc h4 {
@@ -2552,6 +2552,52 @@ font-size:17px;
 font-size:40px;
 color:#7c013f
 }
+.testContaner{
+    background-color: #fff;
+    border:1px solid #e6e6e6;
+    margin-top: 120px;
+   margin-bottom: 65px;
+    padding:70px 30px 20px;;
+    position: relative;
+  
+}
+.testmonial{
+    color:#999}   
+    .TestDesc{
+        border: 3px solid #7c013f;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        position: absolute;
+        top: -50px;
+       left: 60px;
+        
+    }
+    .TestDesc img{
+        width: 100%;
+        display: inline-block;
+        border-radius: 50%;
+    }
+    .testInfo h2 a,
+    .testInfo h4 a{
+        font-size: 18px;
+        text-decoration: none;
+        color: 414141;
+        transition: all 0.3s ease-in-out 0s;
+   
+    }
+ .testInfo h4 a{
+        color:#C2C2C2;
+        font-size: 16px;
+    }
+
+    .testInfo h2 a:hover{
+        color: #7c013f;
+        transition: all 0.3s ease-in-out 0s;
+    }
+    .testText p{
+        color:#515151
+    }
 @media(min-width:320px)and (max-width:767px){
     .adminForm .form-group{
         width:100%;
