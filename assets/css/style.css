@@ -2406,6 +2406,7 @@ margin:0 10px;
     MARGIN:15PX 0;
 }
 .coursesHours span{
+    display: block;
     font-size:15px;
     color:#7c013f
 }
