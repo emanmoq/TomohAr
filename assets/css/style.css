@@ -2610,6 +2610,28 @@ color:#7c013f
         width:100%;
         height: 100%;;
     }
+    .EventDetailsImgBox{
+        width:100%;
+        background-color:white;
+        border-radius: 5px;
+        padding:20px;
+        margin-bottom:20px;
+    }
+    .EventDetailsImg{
+        display: inline-block;
+    width:45%;
+        float:left
+    }
+    .EventDetailsDesc{
+        float: left;
+    }
+
+    .EventDetailsDesc h4{
+        color:#7c013f;
+    }
+    .EventDetailsDesc p{
+        color:#515151
+    }
     
 @media(min-width:320px)and (max-width:767px){
     .adminForm .form-group{
