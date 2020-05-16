@@ -2624,6 +2624,7 @@ color:#7c013f
     }
     .EventDetailsDesc{
         float: left;
+        margin-top:20px;
     }
 
     .EventDetailsDesc h4{
