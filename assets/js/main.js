@@ -47,7 +47,7 @@ jQuery(function ($) {
               margin:10,
               nav:true,
               dots:true,
-=              items:1,
+          items:1,
               navText :['<i class="lni-chevron-right"></i>','<i class="lni-chevron-left"></i>'],
             });
             setTimeout(function(){

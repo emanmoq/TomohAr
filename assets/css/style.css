@@ -32,6 +32,7 @@ img{
     left:0;
     z-index: -1;
     height:770px;
+    transform: rotatey(180deg);
 }
 .background img{
     height:100%;
