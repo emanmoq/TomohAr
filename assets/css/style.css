@@ -2794,19 +2794,9 @@ margin-top: 18px;
     .pagination  .page-item{
         margin: 15px;
     }
+
+/*
 @media(min-width:320px)and (max-width:767px){
-    .pagination .page-item{
-        margin:0;
-    }
-    .newsImg{
-        width:100%;
-    }
-    .newsDetailsSec{
-        width:100%;
-    }
-    .newsLink {
-        float: none !important
-            }
     .adminForm .form-group{
         width:100%;
     }
@@ -3069,7 +3059,7 @@ left:96px;}
 .langTable{
     width:100%;
 }
-}
+}*/
 @media(min-width:768px)and (max-width:1200px){
     .memberShipForm .form-group ,.memberShipForm .form-group label,
 .memberShipForm .form-group .form-control,.selectric-wrapper,.chzn-container,.custom-file{
@@ -3692,7 +3682,7 @@ padding-top:13px;
   transition: all .5s;
 }
 .newsImg{
-    width:10%;
+    width:20%;
     display: inline-block;
     margin-right:12px;
     border-radius: 3px;
@@ -3705,16 +3695,77 @@ padding-top:13px;
     font-family: a-jannat-lt-bold;
     margin-top:12px;
 }
-.projBox p{
-    font-size:1em;
-    color:#9b9b9b;
-    padding:5px;
+#innerPage h1.newsDetailsTitle{
+    font-size:30px;
+    text-align: left !important;
+    margin-left: 50px;
+    max-width: 48%;
+    float: left;
 }
-.projBox{
+
+#innerPage .newsDate{
+float: right;
+width: 35%;
+color: white;
+text-align: right;
+display: inline-block;
+
+}
+.newsDetailsDesc{
+display: inline-block;
+float: left;
+width:45%;
+margin-left:20px;
+}
+.ProjImg{
+    display: inline-block;
+    width:45%;
+    float: right;
+}
+.newsDetailsDescpar{
+    color:#515151;
+    font-size: 17px;
+    line-height: 2.5;
+    float: right;
+}
+.newsCarItem.card{
     background-color:white;
-    width:100%;
-    box-shadow: 0 0 10px 2px rgba(0,0,0,.1)
+    border-radius: 6px;
+    border:0;
+    box-shadow: 5px 7px 10px rgba(47, 46, 52,.12);
+   
+    
+
 }
+.newsCarItem.card .card-body{
+padding: 10px;;
+box-shadow: none;
+border:0;
+text-align: left;
+}
+.newsCarItem.card .card-title{
+    font-size:14px;
+    color:black
+}
+.newsCar.owl-carousel .owl-stage{
+padding: 20px 15px ;
+}
+.newsCar.owl-carousel .owl-stage-outer{
+    width:111%;
+}
+.newsCarItem.card .card-text{
+    font-size:13px;;
+    color:#989DB3;
+}
+.latest{
+    font-size:22px;
+    margin-top:110px;
+    margin-bottom:50px;
+    font-family: a-jannat-lt-bold;
+color:black;
+padding:20px;
+}
+/******************/
 .newsTitle a{
     color:#98014E;
 }
@@ -5856,271 +5907,311 @@ color:#7c013f
         color:#515151
     }
 
-    
-@media(min-width:320px)and (max-width:767px){
-    .adminForm .form-group{
-        width:100%;
-    }
-    .admminmarginRight.form-group{
-        margin-left:0;
-    }
-    .adminForm .send{
-margin:20px 0;
-float: none;
-    }
-    .mobileProfile{
-        display: block;
-        position: relative;
-    }
-    .topHeader{
-        padding:10px 0;
-    }
-    #innerPage h1 {
-        font-size: 48px;}
-    #reg{
-        padding:10px;
-    }
-    .lang{
-        display: block;
-        margin-top:20px;
-    }
-    .loginLang{
-        margin-top:10px;
-    }
-    .lang a,.lang i{
-        color:white
-    }
-    #descktopMenu{
-        display:none;
-    }
-    .selectric-margin-form-group{
-        margin-left:0;
-    }
-    .selectric-margin-form-group.selectric-qualification{
-margin-left:0;
-    }
-    .personalInfo .form-group label.profile{
-        width:100%;
-    }
-    .margin-form-group{
-        margin-left: 0;;
-    }
-    .close{color:white;}
-    .mobileNav nav.navbar {
-        width: 100%;   
-        position: absolute; 
-        z-index: 999999;
-        top: 0;  
-        left: 0;
-        padding:0;
-}
-#navbarNav{
-    padding:20px;
-    background-color:#97004e;
-    width:100%;
-    padding-bottom:50px;
-}
-
-    .logo {
-        display: inline-block !important;
-    }
-    .verticalSocial{
-        display: none;
-}
-.background{
-height:500px;
-
-background-color: #97004e;
-}
-.heroText h1 {
-    font-size: 30px;}
-    .regBtn{
-        
-    font-size: 12px;
-    line-height: 2.33;
-        margin-top: 0;
-        padding: 5px 5px;    
-    }
-    .regBtn i{
-        font-size: 16px;
-        margin-left: 5px;
-    }
-    .heroText p {
-        font-size: 13px;
-        margin-bottom: 16px;
-    }
-    header{
-        padding:10px 0;
-    }
-    .form-control {
-
-    width:100%;
-    margin-bottom:10px;
-}
-.form-group{
-    margin-bottom:0;
-}
- .partnerSlider .owl-dots {
-  
-    right: auto;
-    text-align: center;
-    width: 100%;
-}
-.partnerItem {
-    width: 70%;
-    margin: auto;}
-    footer .footerSec {
-        margin-top: 33px;
-    }
-    footer{
-        padding:5px
-    }
-    .vl{
-        display: none;
-    }
-    .copyRight {
-        background-color: #515151;
-        font-size: 13px;
-
-        margin-top: 34px;
-    }
-    .eventList {
-padding:5;
-        width: 100%;}
-
-        .EventImg {
+    @media(min-width:320px)and (max-width:767px){
+        #innerPage h1.newsDetailsTitle, #innerPage .newsDate{
             width: 100%;
-            height: auto;
+            float: left;
+            text-align: left;
+            margin-left: 25px;;
+        }
+        .newsDetailsDesc{
+            width:100%;
+        }
+        .newsCar.owl-carousel .owl-stage-outer{
+            width:100%;
+        }
+        #news{
+            padding:20px;;
+        }
+        .latest{
+            margin:20px !important
+        }
+        .newsCar.owl-carousel .owl-stage{
+            padding: 5px ;
+            }
+        .ProjImg{
+            width:100%;
+        }
+        #innerPage h1.newsDetailsTitle{
+       
+            max-width: 100%;
+        }
+        .pagination .page-item{
+            margin:0;
+        }
+        .newsImg{
+            width:100%;
+        }
+        .newsDetailsSec{
+            width:100%;
+        }
+        .newsLink {
+    float: none !important
+        }
+        .adminForm .form-group{
+            width:100%;
+        }
+        .admminmarginRight.form-group{
+            margin-left:0;
+        }
+        .adminForm .send{
+    margin:20px 0;
+    float: none;
+        }
+        .mobileProfile{
+            display: block;
+            position: relative;
+        }
+        .topHeader{
+            padding:10px 0;
+        }
+        #innerPage h1 {
+            font-size: 48px;}
+        #reg{
+            padding:10px;
+        }
+        .lang{
+            display: block;
+            margin-top:20px;
+        }
+        .loginLang{
             margin-top:10px;
         }
-        .eventList h5 {
-            font-size: 30px;
-            margin-bottom: 6px;}
-            #Events {
-                padding: 30px 0;
-            }
-            .newsTitle {
-                font-size: 12px;
-                margin-top: 8px;
-            }
-            .newsDesc {
-                font-size: 13px;
-            }
- .newsSection{
-     margin-top:0;
- }
- .sectionTitle .title {
-    font-size: 26px;}
-    .titleDetails {
-        font-size: 15px;}
-      #news {
-            padding-top: 45px;
-            padding-bottom: 45px;}
-    #gallery {
-                padding-top: 50px;
-                padding-bottom: 50px;}
-    .gallerySlider .owl-nav {
-                    position: absolute;
-                    right: 44%;
-                    bottom: -10px;}
-      #misce {
-      padding-bottom: 50px;
-      }
-    .box{
-        margin: 0 auto;
-        margin-bottom: 20px;
-        width: 90%;
-        padding-left:25px;
-       
+        .lang a,.lang i{
+            color:white
+        }
+        #descktopMenu{
+            display:none;
+        }
+        .selectric-margin-form-group{
+            margin-left:0;
+        }
+        .selectric-margin-form-group.selectric-qualification{
+    margin-left:0;
+        }
+        .personalInfo .form-group label.profile{
+            width:100%;
+        }
+        .margin-form-group{
+            margin-left: 0;;
+        }
+        .close{color:white;}
+        .mobileNav nav.navbar {
+            width: 100%;   
+            position: absolute; 
+            z-index: 999999;
+            top: 0;  
+            left: 0;
+            padding:0;
     }
-.videoCont{
-    margin-top:160px;
-    height: 200px;
-}
-.heroSlider .owl-dots {
-    bottom: -43px;
-    right: 23% ;
-    width:100%;
- 
-}
-.heroSlider .owl-nav{
-    display: none;
-}
-.scroll {
-    display: none;
-}
-.heroSec {
-    padding-top: 39px;
-    padding-bottom: 0;
-    margin-bottom: 30px;
-}
-.playVideo{
-    padding:15px;
-}
-.nav-link:before{
-    display:none;
-}
-.wow{
-    animation: none !important;
-}
-.dropdown-toggle::after {
-
-left:96px;}
-.memberShipForm .form-group ,.memberShipForm .form-group label{
-    width:100%;
-}
-.memberShipForm .form-group .form-control,.selectric-wrapper,.chzn-container,.custom-file{
-    width:100% !important;
-}
-.loginInfo span {
-
-    left: 0;
-    top: 34%;
-}
-.loginInfo .form-control.passwordInput{
-    margin-bottom: 30px;
-
-}
-.footerreg  .btn{
-    margin-top:20px;
-}
-.footerreg {
-    float: none;
-}
-.saveBtn,.regSendBtn {
-    width:90px;
-    font-size:12px;
-}
-.g-recaptcha div{
-    width:100% !important;
-}
-.loginInfo span.passwordHint{
-    bottom:2%;
-}
-.counterNum{
-    font-size:45px
-}
-.uploadImg{
-    width:55px;
-    height: 55px;;
-}
-.personalInfo .form-group label.uploadImgLabel{
-    font-size: 16px;
-}
-.datainfo .passwordHint{
-    font-siZe:16px;
-}
-.personalDataPage  .selectric-wrapper,.datainfo .chzn-container{
-    margin-bottom: 20px;
+    #navbarNav{
+        padding:20px;
+        background-color:#97004e;
+        width:100%;
+        padding-bottom:50px;
+    }
     
-}
-.innerrNav{
-    padding: 13px 0;
-}
-.langTable{
-    width:100%;
-}
-}
+        .logo {
+            display: inline-block !important;
+        }
+        .verticalSocial{
+            display: none;
+    }
+    .background{
+    height:500px;
+    
+    background-color: #97004e;
+    }
+    .heroText h1 {
+        font-size: 30px;}
+        .regBtn{
+            
+        font-size: 12px;
+        line-height: 2.33;
+            margin-top: 0;
+            padding: 5px 5px;    
+        }
+        .regBtn i{
+            font-size: 16px;
+            margin-left: 5px;
+        }
+        .heroText p {
+            font-size: 13px;
+            margin-bottom: 16px;
+        }
+        header{
+            padding:10px 0;
+        }
+        .form-control {
+    
+        width:100%;
+        margin-bottom:10px;
+    }
+    .form-group{
+        margin-bottom:0;
+    }
+     .partnerSlider .owl-dots {
+      
+        right: auto;
+        text-align: center;
+        width: 100%;
+    }
+    .partnerItem {
+        width: 70%;
+        margin: auto;}
+        footer .footerSec {
+            margin-top: 33px;
+        }
+        footer{
+            padding:5px
+        }
+        .vl{
+            display: none;
+        }
+        .copyRight {
+            background-color: #515151;
+            font-size: 13px;
+    
+            margin-top: 34px;
+        }
+        .eventList {
+    padding:5;
+            width: 100%;}
+    
+            .EventImg {
+                width: 100%;
+                height: auto;
+                margin-top:10px;
+            }
+            .eventList h5 {
+                font-size: 30px;
+                margin-bottom: 6px;}
+                #Events {
+                    padding: 30px 0;
+                }
+                .newsTitle {
+                    font-size: 12px;
+                    margin-top: 8px;
+                }
+                .newsDesc {
+                    font-size: 13px;
+                }
+     .newsSection{
+         margin-top:0;
+     }
+     .sectionTitle .title {
+        font-size: 26px;}
+        .titleDetails {
+            font-size: 15px;}
+          #news {
+                padding-top: 45px;
+                padding-bottom: 45px;}
+        #gallery {
+                    padding-top: 50px;
+                    padding-bottom: 50px;}
+        .gallerySlider .owl-nav {
+                        position: absolute;
+                        right: 44%;
+                        bottom: -10px;}
+          #misce {
+          padding-bottom: 50px;
+          }
+        .box{
+            margin: 0 auto;
+            margin-bottom: 20px;
+            width: 90%;
+            padding-left:25px;
+           
+        }
+    .videoCont{
+        margin-top:160px;
+        height: 200px;
+    }
+    .heroSlider .owl-dots {
+        bottom: -43px;
+        right: 23% ;
+        width:100%;
+     
+    }
+    .heroSlider .owl-nav{
+        display: none;
+    }
+    .scroll {
+        display: none;
+    }
+    .heroSec {
+        padding-top: 39px;
+        padding-bottom: 0;
+        margin-bottom: 30px;
+    }
+    .playVideo{
+        padding:15px;
+    }
+    .nav-link:before{
+        display:none;
+    }
+    .wow{
+        animation: none !important;
+    }
+    .dropdown-toggle::after {
+    
+    left:96px;}
+    .memberShipForm .form-group ,.memberShipForm .form-group label{
+        width:100%;
+    }
+    .memberShipForm .form-group .form-control,.selectric-wrapper,.chzn-container,.custom-file{
+        width:100% !important;
+    }
+    .loginInfo span {
+    
+        left: 0;
+        top: 34%;
+    }
+    .loginInfo .form-control.passwordInput{
+        margin-bottom: 30px;
+    
+    }
+    .footerreg  .btn{
+        margin-top:20px;
+    }
+    .footerreg {
+        float: none;
+    }
+    .saveBtn,.regSendBtn {
+        width:90px;
+        font-size:12px;
+    }
+    .g-recaptcha div{
+        width:100% !important;
+    }
+    .loginInfo span.passwordHint{
+        bottom:2%;
+    }
+    .counterNum{
+        font-size:45px
+    }
+    .uploadImg{
+        width:55px;
+        height: 55px;;
+    }
+    .personalInfo .form-group label.uploadImgLabel{
+        font-size: 16px;
+    }
+    .datainfo .passwordHint{
+        font-siZe:16px;
+    }
+    .personalDataPage  .selectric-wrapper,.datainfo .chzn-container{
+        margin-bottom: 20px;
+        
+    }
+    .innerrNav{
+        padding: 13px 0;
+    }
+    .langTable{
+        width:100%;
+    }
+    }  
+
 @media(min-width:768px)and (max-width:1200px){
     .memberShipForm .form-group ,.memberShipForm .form-group label,
 .memberShipForm .form-group .form-control,.selectric-wrapper,.chzn-container,.custom-file{
