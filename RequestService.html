@@ -197,72 +197,63 @@
     <section id="reg">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-md-10 col-12">
+                <div class="col-lg-10 col-12">
                     <h4 class="memberShipFormTitle"> Request Service</h4>
                     <div class="memberShipForm clearfix">
                         <form>
                             <div class="personalInfo clearfix">
-                                <h4 class="formRegTitle"> Company Information
+                                <h4 class="formRegTitle"> Company Info
                                 </h4>
                                 <div class="form-group">
-                                    <label for="name">Name</label>
-                                    <input type="text" class="form-control" placeholder="" id="name">
+                                    <label for="name"> Name <span class="star">*</span> </label>
+                                    <input type="text" class="form-control" placeholder="Enter Name" id="name" required>
                                 </div>
                                 <div class="form-group">
-                                    <label for="type"> Type of Activity </label>
-                                    <input type="text" class="form-control" placeholder="" id="type">
+                                    <label for="type"> Activity Type <span class="star">*</span> </label>
+                                    <input type="text" class="form-control" placeholder="Enter Activity Type" id="type">
                                 </div>
                                 <div class="form-group">
-                                    <label for="address"> Address </label>
-                                    <input type="text" class="form-control" placeholder="" id="address">
+                                    <label for="address">
+                                        <Address></Address> <span class="star">*</span>
+                                    </label>
+                                    <input type="text" class="form-control" placeholder="Enter Address" id="address">
                                 </div>
                                 <div class="form-group">
-                                    <label for="phoneNumber"> Mobile</label>
-                                    <input id="phoneNumber" type="text" value="" class="form-control">
+                                    <label for="phoneNumber"> Mobile No. <span class="star">*</span> </label>
+                                    <input id="phoneNumber" type="text" placeholder="0097 59****" class="form-control">
                                 </div>
                                 <div class="form-group">
-                                    <label for="email"> Email</label>
-                                    <input id="email" type="text" value="" class="form-control">
+                                    <label for="email"> Email <span class="star">*</span> </label>
+                                    <input id="email" type="text" placeholder="example@example.com"
+                                        class="form-control">
                                 </div>
                                 <div class="form-group">
-                                    <label for="admin">
-                                        The official / department with which to communicate </label>
+                                    <label for="admin"> Admin/</label>
                                     <input id="admin" type="text" value="" class="form-control">
                                 </div>
                                 <div class="form-group">
-                                    <label for="box">
-                                        mail box </label>
+                                    <label for="box"> Mail Box </label>
                                     <input id="box" type="text" value="" class="form-control">
                                 </div>
 
                             </div>
                             <div class="personalInfo contactInfo clearfix">
-                                <h4 class="formRegTitle"> Service requirements
-                                </h4>
+                                <h4 class="formRegTitle"> Service Requirments</h4>
                                 <div class="form-group">
-                                    <label for="name"> The required service
-                                    </label>
-                                    <select data-placeholder="اختر الخدمة ..." name="services" class="select"
+                                    <label for="name"> Requested Service </label>
+                                    <select data-placeholder="Select Service" name="services" class="select"
                                         tabindex="2" id="services">
-                                        <option value='1'>Request for specialized volunteers</option>
+                                        <option value='1'>طلب متطوعين متخصيين</option>
                                         <option value='2'>طلب متطوعين غير متخصيين</option>
-                                        <option value='3'>
-                                            Request non-specialized volunteers </option>
-                                        <option value='4'>
-                                            Request for effective management</option>
-                                        <option value='5'>
-                                            Consulting and planning</option>
+                                        <option value='3'>طلب اداريين</option>
+                                        <option value='4'>طلب ادارة فعالية</option>
+                                        <option value='5'>استشارة وتخطيط</option>
 
                                     </select>
                                 </div>
-                                <div class="form-group">
-                                    <label> Email </label>
-                                    <input type="mail" class="form-control" placeholder="">
-                                </div>
 
                                 <div class="form-group">
-                                    <label>
-                                        The location of the event</label>
+                                    <label> Event Location</label>
                                     <input type="text" value="" class="form-control">
                                 </div>
                                 <div class="form-group">
@@ -270,191 +261,158 @@
                                     <input type="number" value="" class="form-control num">
                                 </div>
                                 <div class="form-group">
-                                    <label> Volunteers</label>
+                                    <label> Volunteer</label>
                                     <input type="number" value="" class="form-control num">
                                 </div>
                                 <div class="form-group another">
-                                    <label> Others </label>
+                                    <label>Others </label>
                                     <input type="text" value="" class="form-control">
 
                                 </div>
 
                                 <div class="form-group tableFormgroup">
-                                    <label>
-                                        Preparation and training course </label>
-                                    <table class="CourseBox table-striped">
-                                        <thead>
-                                            <tr>
-                                                <th width=50%>
-                                                    Name Of Course </th>
-                                                <th width=50%>
+                                    <label> Training Course </label>
+                                    <div class="table-responsive">
+                                        <table class="CourseBox table-striped table">
+                                            <thead>
+                                                <tr>
+                                                    <th width=50%>
+                                                        Course Name
+                                                    </th>
+                                                    <th width=50%>
+                                                        Course Time
+                                                    </th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td width=50%>
+                                                        <input type="text" value="" class="form-control">
+                                                    </td>
+                                                    <td width=50%>
+                                                        <input type="date" value="" class="form-control">
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td width=50%>
+                                                        <input type="text" value="" class="form-control">
+                                                    </td>
+                                                    <td width=50%>
+                                                        <input type="date" value="" class="form-control">
+                                                    </td>
+                                                </tr>
 
-                                                    Time Of Cours </th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td width=50%>
-                                                    <input type="text" value="" class="form-control">
-                                                </td>
-                                                <td width=50%>
-                                                    <input type="date" value="" class="form-control">
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td width=50%>
-                                                    <input type="text" value="" class="form-control">
-                                                </td>
-                                                <td width=50%>
-                                                    <input type="date" value="" class="form-control">
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td width=50%>
-                                                    <input type="text" value="" class="form-control">
-                                                </td>
-                                                <td width=50%>
-                                                    <input type="date" value="" class="form-control">
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td width=50%>
-                                                    <input type="text" value="" class="form-control">
-                                                </td>
-                                                <td width=50%>
-                                                    <input type="date" value="" class="form-control">
-                                                </td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
+                                            </tbody>
+                                        </table>
+                                    </div>
                                 </div>
                                 <div class="form-group tableFormgroup" style="margin-top:20px">
-                                    <label>
-                                        mission
+                                    <label> Task description
                                         <br>
-                                        <span>
-                                            A sequence of all tasks required to perform the job, such as including roles
-                                            / responsibilities </span>
+                                        <span>تسلسل جميع المهام الNoزمة Noداء الوظيفة مثل ان يشمل ادوار / مسؤوليات
+                                            /انشطة </span>
                                     </label>
-                                    <table class="CourseBox table-striped">
-                                        <thead>
-                                            <tr>
-                                                <th width=35%>
-                                                    Job
-                                                </th>
-                                                <th width=35%>
+                                    <div class="table-responsive">
+                                        <table id="CourseBox" class="CourseBox table-striped table">
+                                            <thead>
+                                                <tr>
+                                                    <th width=5%>
+                                                        No.
+                                                    </th>
+                                                    <th width=35%>
+                                                        Task
+                                                    </th>
+                                                    <th width=35%>
+                                                        Skill Needed
+                                                    </th>
+                                                    <th width=30%>
+                                                        Requirment No.
+                                                    </th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td width=5%><span class="No">1</span></td>
+                                                    <td width=35%>
+                                                        <input type="text" value="" id="tdinput1" class="form-control">
+                                                    </td>
+                                                    <td width=35%>
+                                                        <input type="text" id="tdinput2" value="" class="form-control">
+                                                    </td>
+                                                    <td width=30%>
+                                                        <input type="number" value="" id="tdinput3"
+                                                            class="form-control">
+                                                    </td>
+                                                </tr>
 
-                                                    Needy skills
-                                                </th>
-                                                <th width=30%>
-                                                    Needy number
-                                                </th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td width=35%>
-                                                    <input type="text" value="" class="form-control">
-                                                </td>
-                                                <td width=35%>
-                                                    <input type="text" value="" class="form-control">
-                                                </td>
-                                                <td width=30%>
-                                                    <input type="number" value="" class="form-control">
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td width=35%>
-                                                    <input type="text" value="" class="form-control">
-                                                </td>
-                                                <td width=35%>
-                                                    <input type="text" value="" class="form-control">
-                                                </td>
-                                                <td width=30%>
-                                                    <input type="number" value="" class="form-control">
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td width=35%>
-                                                    <input type="text" value="" class="form-control">
-                                                </td>
-                                                <td width=35%>
-                                                    <input type="text" value="" class="form-control">
-                                                </td>
-                                                <td width=30%>
-                                                    <input type="number" value="" class="form-control">
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td width=35%>
-                                                    <input type="text" value="" class="form-control">
-                                                </td>
-                                                <td width=35%>
-                                                    <input type="text" value="" class="form-control">
-                                                </td>
-                                                <td width=30%>
-                                                    <input type="number" value="" class="form-control">
-                                                </td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <label>
+                                    </label>
+                                    <div class="lastTR"> <a href="javascript:;" id="showmoreTable"
+                                            class="showmoreTable"> more + </a> </div>
                                 </div>
                                 <div class="form-group tableFormgroup" style="margin-top:20px">
-                                    <label> المتطلبات الرئيسية
+                                    <label> Main Requirments
                                         <br>
 
                                     </label>
-                                    <table class="CourseBox">
-                                        <thead style="background-color: #fafafa;">
-                                            <tr>
-                                                <th width=70%>
-                                                    From
-                                                </th>
-                                                <th width=30%>
-                                                    To
-                                                </th>
+                                    <div class="table-responsive">
+                                        <table class="CourseBox table">
+                                            <thead style="background-color: #fafafa;">
+                                                <tr>
+                                                    <th width=50%>
+                                                        From
+                                                        <input type="date" value="" class="form-control">
+                                                    </th>
+                                                    <th width=50%>
+                                                        To <input type="date" value="" class="form-control">
+                                                    </th>
 
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td width=70%>
-                                                    <label class="tableLabel"> Dates </label>
-                                                    <input type="text" value="" class="form-control reqControl">
-                                                </td>
-                                                <td width=30%>
-                                                    <input type="text" value="" class="form-control">
-                                                </td>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td width="50%">
+                                                        <label class="tableLabel"> Requirment Dates </label>
+                                                        <input type="date" value="" class="form-control reqControl">
+                                                    </td>
+                                                    <td width=50%>
+                                                        <label class="tableLabel"> </label>
 
-                                            </tr>
-                                            <tr>
-                                                <td width=70%>
-                                                    <label class="tableLabel"> Time</label>
-                                                    <input type="text" value="" class="form-control reqControl">
-                                                </td>
-                                                <td width=30%>
-                                                    <input type="text" value="" class="form-control">
-                                                </td>
+                                                        <input type="date" value="" class="form-control">
+                                                    </td>
 
-                                            </tr>
-                                            <tr>
-                                                <td colspan="2">
-                                                    <label class="tableLabel"> Days </label>
-                                                    <input type="text" value="" class="form-control reqControl">
-                                                </td>
+                                                </tr>
+                                                <tr>
+                                                    <td width=50%>
+                                                        <label class="tableLabel"> Requirment Time</label>
+                                                        <input type="text" value="" class="form-control reqControl">
+                                                    </td>
+                                                    <td width=50%>
+                                                        <label class="tableLabel"></label>
+                                                        <input type="text" value="" class="form-control">
+                                                    </td>
+
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="2">
+                                                        <label class="tableLabel"> Days No. </label>
+                                                        <input type="text" value="" class="form-control reqControl">
+                                                    </td>
 
 
-                                            </tr>
+                                                </tr>
 
 
-                                        </tbody>
-                                    </table>
+                                            </tbody>
+                                        </table>
+                                    </div>
                                 </div>
                                 <div class="form-group another">
-                                    <label class="textarealLabel"> Information and data
-
-                                        <div>
-                                            Please write the details and details of the services
+                                    <label class="textarealLabel"> Information
+                                        <div> Please Write Data of Service
                                         </div>
                                     </label>
 
@@ -465,22 +423,22 @@
 
 
                             <div class="personalInfo clearfix contactInfo  ">
-                                <h4 class="formRegTitle"> Volunteer requirements </h4>
+                                <h4 class="formRegTitle"> volunteer Requirment</h4>
                                 <div class="clearfix">
                                     <div class="form-group selectsec">
                                         <label><br>
                                             Gender</label>
-                                        <select data-placeholder="اختر السبب  ..." name="reason[]" class="chosen-select"
+                                        <select data-placeholder=" Choose" name="reason[]" class="chosen-select"
                                             tabindex="2" multiple>
-                                            <option value='1'> Male </option>
-                                            <option value='2'>Female</option>
+                                            <option value='1'>Male </option>
+                                            <option value='2'>Femal</option>
 
                                         </select>
                                     </div>
 
                                     <div class="form-group">
                                         <label for="name"> Nationality </label>
-                                        <select data-placeholder="اختر السبب  ..." name="reason[]" class="chosen-select"
+                                        <select data-placeholder="Choose " name="reason[]" class="chosen-select"
                                             tabindex="2" multiple>
                                             <option value='2'>آيسلند</option>
                                             <option value='3'>أذربيجان</option>
@@ -681,13 +639,11 @@
 
                             </div>
                             <div class="personalInfo clearfix contactInfo  ">
-                                <h4 class="formRegTitle">
-                                    Please select the most important benefits for ambitious
+                                <h4 class="formRegTitle"> Please specify the most important benefits of Tamouh
                                 </h4>
                                 <div class="clearfix">
                                     <div class="form-group">
-                                        <label>
-                                            Advertising (ads, flyers, slogans, posters, ...) </label>
+                                        <label> Publicity (ads, flyers, slogans, posters, ...)</label>
                                         <div class="can-toggle social">
                                             <input id="Advertising" type="checkbox">
                                             <label for="Advertising">
@@ -697,8 +653,7 @@
                                         </div>
                                     </div>
                                     <div class="form-group">
-                                        <label>
-                                            Training and rehabilitating courses for volunteers </label>
+                                        <label> Training and qualification courses for volunteers</label>
                                         <div class="can-toggle social">
                                             <input id="courses" type="checkbox">
                                             <label for="courses">
@@ -708,8 +663,7 @@
                                         </div>
                                     </div>
                                     <div class="form-group">
-                                        <label>
-                                            Financial rewards for volunteers
+                                        <label> Financial reward for volunteers
                                         </label>
                                         <div class="can-toggle social">
                                             <input id="Reward" type="checkbox">
@@ -721,31 +675,28 @@
                                     </div>
                                     <div class="form-group ">
                                         <label>
-                                            <div>
-                                                yjb wade qimat almukafa'at 'iidha aikhtarat mukafa'at madiyatan
-                                                Reward value must be set if you choose material rewards
+                                            <div>The value of the reward must be included if you choose a monetary
+                                                reward
                                             </div>
                                         </label>
                                         <input type="text" class="form-control" id="RewardInput" disabled>
                                     </div>
                                     <div class="form-group ">
                                         <label>
-
-                                            Moral rewards (certificates of appreciation)
+                                            Moral bonus (certificates of appreciation)
 
                                         </label>
                                         <div class="can-toggle social">
                                             <input id="appreciation" type="checkbox">
                                             <label for="appreciation">
-                                                <div class="can-toggle__switch" data-checked="No" data-unchecked="yes">
+                                                <div class="can-toggle__switch" data-checked="No" data-unchecked="Yes">
                                                 </div>
                                             </label>
                                         </div>
                                     </div>
                                     <div class="form-group ">
                                         <label>
-                                            Hours volunteered
-
+                                            Volunteer Hour
                                         </label>
                                         <div class="can-toggle social">
                                             <input id="hoursvolunteered" type="checkbox">
@@ -757,8 +708,7 @@
                                     </div>
                                     <div class="form-group ">
                                         <label>
-
-                                            Budget to provide what volunteers need (scarves - pins ..)
+                                            A budget to provide what the volunteers need (scarves - pins ..)
                                         </label>
                                         <div class="can-toggle social">
                                             <input id="budget" type="checkbox">
@@ -773,42 +723,29 @@
                             </div>
                             <div class="personalInfo clearfix contactInfo  ">
 
-                                <div>
-                                    Please attach a complete plan for the event / schedule
+                                <div>Please attach a complete event / schedule plan
                                     <br>
 
-                                    Please attach an appointment / schedule plan according to the volunteer application
-                                    form above <br>
-
-                                    Please be aware that the ambitious volunteer team will cover and publish the
-                                    achievements of its volunteer team for Tamouh archive
-                                    What he deems appropriate through the initiative’s account on social networks.
-                                    <br>
-
-                                    Please note that an ambitious team will study your request and send you its offer
-                                    within 5 days of submitting the form.
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim inventore minus<br>
+                                    tempore quae quod. Veniam vel accusamus incidunt labore cupiditate provident!
+                                    Quod<br>
+                                    iste nemo, facilis quas mollitia fugit ab sed!<br>
                                 </div>
 
 
                             </div>
                             <div class="personalInfo clearfix contactInfo  ">
                                 <div class="form-group">
-                                    <label for="file"> Choose Files</label>
+                                    <label for="file"> Choose Files </label>
                                     <div class="custom-file" style="display: inline-block;">
-                                        <input type="file" class="custom-file-input" id="inputGroupFile01">
+                                        <input type="file" class="custom-file-input" id="inputGroupFile01"
+                                            onchange=changeinput(this)>
                                         <label class="custom-file-label" for="inputGroupFile01"
                                             style="display: inline-block;"></label>
                                     </div>
-                                    <div class="custom-file" style="display: inline-block;">
-                                        <input type="file" class="custom-file-input" id="inputGroupFile02">
-                                        <label class="custom-file-label" for="inputGroupFile02"
-                                            style="display: inline-block;"></label>
-                                    </div>
-                                    <div class="custom-file" style="display: inline-block;">
-                                        <input type="file" class="custom-file-input" id="inputGroupFile03">
-                                        <label class="custom-file-label" for="inputGroupFile03"
-                                            style="display: inline-block;"></label>
-                                    </div>
+                                </div>
+                                <div class="MoreFiles">
+                                    <a href="javascript:;" id="addMoreFiles"> Add More Files </a>
                                 </div>
                             </div>
 
@@ -825,6 +762,7 @@
             </div>
         </div>
     </section>
+
     <footer>
         <div class="tomohLetter">
             <img src="assets/images/footerTomoh.png" alt="">
@@ -992,7 +930,7 @@
         $('.select').selectric({
             disableOnMobile: false,
             nativeOnMobile: false,
-           
+
         });
     </script>
     <script type="text/javascript" src="assets/js/main.js"></script>
@@ -1019,7 +957,7 @@
                 jQuery.browser.version = RegExp.$1;
             }
         })();
-        $("select.chosen-select").chosen({ });
+        $("select.chosen-select").chosen({});
 
         /*       if($(".can-toggle__switch").prop("data-unchecked") == "Yes"){
            $('#RewardInput').prop("disabled", false);
