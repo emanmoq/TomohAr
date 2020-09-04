@@ -1607,7 +1607,7 @@ color:white;
     }
     .backtoHome{
         position: absolute;
-        left:0;
+        left:5px;
         top:10px;
         width:32px;
         height: 32px;
@@ -3022,10 +3022,10 @@ margin-top: 18px;
         top:50%;
     }
     .newsCar .owl-nav button.owl-next, .ourTeamCar  .owl-nav button.owl-next{
-        right:-10%;
+        left:-10%;
     }
     .newsCar  .owl-nav button.owl-prev ,.ourTeamCar  .owl-nav button.owl-prev{
-        left:-10%;
+        right:-10%;
     } 
      .newsCar  .owl-nav button:focus,
         .ourTeamCar  .owl-nav button:focus{

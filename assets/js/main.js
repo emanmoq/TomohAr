@@ -113,7 +113,7 @@ jQuery(function ($) {
                   margin:17,
                   nav:true,
                   rtl:true,
-                  navText :['<i class="fas fa-chevron-right"></i>','<i class="fas fa-chevron-left"></i>'],
+                  navText :['<i class="fas fa-chevron-left"></i>','<i class="fas fa-chevron-right"></i>'],
                 responsive:{
                 0:{
                   items:1
