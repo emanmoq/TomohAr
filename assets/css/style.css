@@ -3243,7 +3243,17 @@ thead ,tbody{
     line-height: 37px;
     width: 133px;
     height: 47px;
+    float: right;
    
+}
+.searchFamily .form-group.EmptyBtn{
+    width:100%;
+}
+.searchFamily .form-group.EmptyBtn .form-control{
+    width:60%;
+}
+.searchFamily .form-group.EmptyBtn  i{
+    right:42%;
 }
 
 .searchResultText{
