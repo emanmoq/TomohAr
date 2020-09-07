@@ -2230,6 +2230,7 @@ display: block;
 }
 #reg .CourseBox{
     width:80%; 
+    display: table;
 }
 
  .showmoreTable{
