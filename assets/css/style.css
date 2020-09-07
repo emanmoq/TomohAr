@@ -3283,6 +3283,16 @@ thead ,tbody{
 width:60% !important;
 }
 @media(min-width:320px)and (max-width:767px){
+    .searchFamily .form-group.EmptyBtn .form-control{
+        width:100%;
+    }
+    .searchFamily .form-group.EmptyBtn i{
+        left:3%;
+        top:20%;
+    }
+    .EventListDesc{
+        height:auto
+    }
     #howweArePage .tomohLetterRight{
         display: none
     }
@@ -3381,7 +3391,7 @@ float: none;
     .lang{
         display: block;
         margin-top:20px;
-        margin-left:0;s
+        margin-left:0;
     }
     .loginLang{
         margin-top:10px;
@@ -3567,7 +3577,21 @@ padding:5;
 }
 .dropdown-toggle::after {
 
-left:96px;}
+left:40%;
+font-size:14px;}
+.navbar-toggler{
+    margin-right:50px;
+}
+  
+.innerrNav .navbar-toggler{
+    margin-left:20px;
+}
+.innerrNav{
+    padding:0;
+}
+.innerrNav .logo{
+    margin-right:20px;
+}
 .memberShipForm .form-group ,.memberShipForm .form-group label{
     width:100%;
 }
@@ -3662,6 +3686,16 @@ left:96px;}
 }
 }
 @media(min-width:768px)and (max-width:1200px){
+    .searchBtn{
+        margin:20px;
+        margin-right:0;
+    }
+    .form-group.EmptyBtn .searchBtn{
+        margin:0;
+    }
+    .logo{
+        margin-right:50px;
+    }
     .ourTeamcarItem{
         width:auto;
         height:auto;}
@@ -3734,6 +3768,16 @@ width:100%;
     float:none !important;
     padding:15px;
     position: absolute;
+    padding-bottom:50px;
+}
+#navbarNav .lang .dropdown-menu .dropdown-item{
+    color:#a23768
+}
+.videoCont{
+    overflow:visible;
+}
+.newsImg{
+    width:100%;
 }
 .lang{
     display: block;

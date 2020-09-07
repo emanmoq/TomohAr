@@ -17,6 +17,7 @@
     <link href="assets/css/animation.css" rel="stylesheet">
     <link href="assets/css/selectric.css" rel="stylesheet">
     <link href="assets/css/chosen.css" rel="stylesheet">
+    <link href="assets/css/jquery-ui.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
 
 </head>
@@ -290,7 +291,7 @@
                                                         <input type="text" value="" class="form-control">
                                                     </td>
                                                     <td width=50%>
-                                                        <input type="date" value="" class="form-control">
+                                                        <input type="text"  class="form-control "id="datepicker">
                                                     </td>
                                                 </tr>
                                                 <tr>
@@ -298,7 +299,7 @@
                                                         <input type="text" value="" class="form-control">
                                                     </td>
                                                     <td width=50%>
-                                                        <input type="date" value="" class="form-control">
+                                                        <input type="text"  class="form-control "id="datepicker">
                                                     </td>
                                                 </tr>
 
@@ -365,10 +366,10 @@
                                                 <tr>
                                                     <th width=50%>
                                                         From
-                                                        <input type="date" value="" class="form-control">
+                                                        <input type="text"  class="form-control "id="datepicker">
                                                     </th>
                                                     <th width=50%>
-                                                        To <input type="date" value="" class="form-control">
+                                                        To <input type="text"  class="form-control "id="datepicker">
                                                     </th>
 
                                                 </tr>
@@ -382,7 +383,7 @@
                                                     <td width=50%>
                                                         <label class="tableLabel"> </label>
 
-                                                        <input type="date" value="" class="form-control">
+                                                        <input type="text"  class="form-control "id="datepicker">
                                                     </td>
 
                                                 </tr>
@@ -934,6 +935,8 @@
 
         });
     </script>
+    <script type="text/javascript" src="assets/js/jquery-ui.js"></script>
+
     <script type="text/javascript" src="assets/js/main.js"></script>
     <script type="text/javascript" src="assets/js/jquery1.js"></script>
     <script type="text/javascript" src="assets/js/chosen.js"></script>
@@ -968,38 +971,38 @@
                    }
                */
     </script>
-        <script>
-            //Add more hr table on click
-            $("#showmoreTable").click(function () {
-                // increase the first td by 1
-                var no = parseInt($("#CourseBox tbody tr:last-child td .No").text());
-                no++;
-    
-                var html = '<tr>'
-                html += '<td width=5%>' + '<span class="No">' + no + '</span>' + '</td>';
-                html += '<td width=35%>' + ' <input type="text" value=""  class="form-control">' + '</td>';
-                html += '<td width=35%>' + ' <input type="text"  value="" class="form-control">' + '</td>';
-                html += '<td width=30%>' + ' <input type="number" value=""  class="form-control">' + '</td>';
-                html += '</tr>';
-                $(this).parent().parent().find('#CourseBox tbody').append(html);
-            });
-            // Add more input value on click 
-            $("#addMoreFiles").click(function () {
-                var addFile = '<div class="custom-file" style="display: inline-block;">';
-                addFile +=
-                    '<input type="file" class="custom-file-input" onchange=changeinput(this)>';
-                addFile +=
-                    '   <label class="custom-file-label" style="display: inline-block;"></label>';
-                addFile += ' </div>';
-                $(this).parent().parent().find(".form-group").append(addFile);
-    
-            });
-            //take value of input file 
-            function changeinput(e) {
-                var value = $(e).val();
-                $(e).parent().find(".custom-file-label").text(value)
-            }
-        </script>
+    <script>
+        //Add more hr table on click
+        $("#showmoreTable").click(function () {
+            // increase the first td by 1
+            var no = parseInt($("#CourseBox tbody tr:last-child td .No").text());
+            no++;
+
+            var html = '<tr>'
+            html += '<td width=5%>' + '<span class="No">' + no + '</span>' + '</td>';
+            html += '<td width=35%>' + ' <input type="text" value=""  class="form-control">' + '</td>';
+            html += '<td width=35%>' + ' <input type="text"  value="" class="form-control">' + '</td>';
+            html += '<td width=30%>' + ' <input type="number" value=""  class="form-control">' + '</td>';
+            html += '</tr>';
+            $(this).parent().parent().find('#CourseBox tbody').append(html);
+        });
+        // Add more input value on click 
+        $("#addMoreFiles").click(function () {
+            var addFile = '<div class="custom-file" style="display: inline-block;">';
+            addFile +=
+                '<input type="file" class="custom-file-input" onchange=changeinput(this)>';
+            addFile +=
+                '   <label class="custom-file-label" style="display: inline-block;"></label>';
+            addFile += ' </div>';
+            $(this).parent().parent().find(".form-group").append(addFile);
+
+        });
+        //take value of input file 
+        function changeinput(e) {
+            var value = $(e).val();
+            $(e).parent().find(".custom-file-label").text(value)
+        }
+    </script>
 
 </body>
 
