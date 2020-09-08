@@ -127,7 +127,7 @@ margin-right:7px;
 
 }
 .langdrop.dropdown-toggle::after{
-    right: -16px;
+    right: -16px !important;
     position: absolute;
     bottom: 3px;
 }
@@ -3296,7 +3296,22 @@ width:60% !important;
     height: 50px !important;
     overflow-y: scroll;
 }
+.mobileNav{
+
+    display: none;
+    }
+    .navbar.navbar-expand-lg{
+        display: none;;
+    }
 @media(min-width:320px)and (max-width:767px){
+    .mobileNav{
+
+        display: block;
+        }   
+         .navbar.navbar-expand-lg{
+            display: block;
+        }
+    
     .searchFamily .filter .form-group.EmptyBtn{
         width:100%;
         margin-top:20px;
@@ -3708,8 +3723,19 @@ font-size:14px;}
     height:auto
 }
 }
-@media(min-width:768px)and (max-width:1023px){
+@media(min-width:768px)and (max-width:1000px){
+    .langdrop.dropdown-toggle::after{
+        bottom:0;
+        left:108%;
+    }
+    .mobileNav{
 
+        display: block;
+        }   
+         .navbar.navbar-expand-lg{
+            display: block;
+        }
+    
     .searchBtn{
         margin:20px 10px;
         margin-right:0;
@@ -3887,7 +3913,7 @@ section{
         margin-bottom:20px;
     }
 }
-@media(min-width:1024px)and (max-width:1366px){
+@media(min-width:1001px)and (max-width:1366px){
 
     .logo{
         margin-right:50px;
