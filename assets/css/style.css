@@ -3306,7 +3306,13 @@ width:60% !important;
     #descktopMenu{
         display: block;
     }
+    #mobileTopHeader{
+        display: block;;
+    }
 @media(min-width:320px)and (max-width:767px){
+    #mobileTopHeader{
+        display: none;;
+    }
     .mobileNav{
 
         display: block;
@@ -3727,6 +3733,9 @@ font-size:14px;}
 }
 }
 @media(min-width:768px)and (max-width:1000px){
+    #mobileTopHeader{
+        display: none;;
+    }
     .langdrop.dropdown-toggle::after{
         bottom:0;
         left:108%;
@@ -3919,6 +3928,7 @@ section{
 @media(min-width:1001px)and (max-width:1366px){
 
     .logo{
+        margin-top:20px;
         margin-right:50px;
     }
     .ourTeamcarItem{
@@ -3980,6 +3990,7 @@ width:100%;
 
 .loginLang{
     margin-top:20px;
+    margin-right: 20px;;
 } 
 .lang {
     display: inline-block;
