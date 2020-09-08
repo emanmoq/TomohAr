@@ -3115,11 +3115,15 @@ margin-top: 18px;
         width:100%;
     }
     .searchFamily .filter .form-group{
-        width:26%;
+        width:20%;
         display: inline-block;
-        margin-right: 20px;
+        margin-right: 15px;
     }
 
+
+.searchFamily .filter .form-group.EmptyBtn .searchBtn{
+    background-color: #F7941E;
+}
     .searchFamily .filter .selectric-wrapper{
         width:100%;
     
@@ -3241,7 +3245,7 @@ thead ,tbody{
     color:white;
     display: inline-block;
     line-height: 37px;
-    width: 133px;
+    width: 120px;
     height: 47px;
     float: right;
    
@@ -3298,7 +3302,7 @@ width:60% !important;
     }
     .ourTeamcarItem{
         width:auto;
-        height:auto;}
+        height:300px;}
     .profileSec::after, .profileSec.mobileProfile::after{
         right:60px;
     }
