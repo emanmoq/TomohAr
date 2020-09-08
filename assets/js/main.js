@@ -15,6 +15,18 @@ jQuery(function ($) {
               $('header').removeClass('scrollNav');    
         
            }
+           if (( $(window).scrollTop() +  $(window).height()) > $(document).height()) {
+
+            $(".up").stop(true).animate({
+              opacity: 1
+            }, 100);
+      
+          } else {
+      
+            $(".up").stop(true).animate({
+              opacity: 0
+            }, 250);
+          }
            
         
           });

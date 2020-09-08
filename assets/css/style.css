@@ -3169,6 +3169,7 @@ margin-top: 18px;
     text-decoration: none;
     text-align: center;
     z-index: 999;
+    opacity: 0;
 
 }
 .up:hover{
