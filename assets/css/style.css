@@ -3709,9 +3709,11 @@ font-size:14px;}
 }
 }
 @media(min-width:768px)and (max-width:1023px){
+
     .searchBtn{
-        margin:20px;
+        margin:20px 10px;
         margin-right:0;
+        width:200px;
     }
     .form-group.EmptyBtn .searchBtn{
         margin:0;
