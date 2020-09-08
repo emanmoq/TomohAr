@@ -3301,7 +3301,10 @@ width:60% !important;
     display: none;
     }
     .navbar.navbar-expand-lg{
-        display: none;;
+        display: block;
+    }
+    #descktopMenu{
+        display: block;
     }
 @media(min-width:320px)and (max-width:767px){
     .mobileNav{
