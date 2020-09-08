@@ -291,7 +291,7 @@
                                                         <input type="text" value="" class="form-control">
                                                     </td>
                                                     <td width=50%>
-                                                        <input type="text"  class="form-control "id="datepicker">
+                                                       <input type="text" class="form-control  datepicker" >
                                                     </td>
                                                 </tr>
                                                 <tr>
@@ -299,7 +299,7 @@
                                                         <input type="text" value="" class="form-control">
                                                     </td>
                                                     <td width=50%>
-                                                        <input type="text"  class="form-control "id="datepicker">
+                                                       <input type="text" class="form-control  datepicker" >
                                                     </td>
                                                 </tr>
 
@@ -366,10 +366,10 @@
                                                 <tr>
                                                     <th width=50%>
                                                         From
-                                                        <input type="text"  class="form-control "id="datepicker">
+                                                       <input type="text" class="form-control  datepicker" >
                                                     </th>
                                                     <th width=50%>
-                                                        To <input type="text"  class="form-control "id="datepicker">
+                                                        To<input type="text" class="form-control  datepicker" >
                                                     </th>
 
                                                 </tr>
@@ -383,7 +383,7 @@
                                                     <td width=50%>
                                                         <label class="tableLabel"> </label>
 
-                                                        <input type="text"  class="form-control "id="datepicker">
+                                                       <input type="text" class="form-control  datepicker" >
                                                     </td>
 
                                                 </tr>
@@ -935,13 +935,23 @@
 
         });
     </script>
-    <script type="text/javascript" src="assets/js/jquery-ui.js"></script>
+   
 
     <script type="text/javascript" src="assets/js/main.js"></script>
     <script type="text/javascript" src="assets/js/jquery1.js"></script>
+    <script type="text/javascript" src="assets/js/jquery-ui.js"></script>
     <script type="text/javascript" src="assets/js/chosen.js"></script>
     <script src="assets/js/waypoints-min.js"></script>
     <script type="text/javascript" src="assets/js/countUp.js"></script>
+    <script type="text/javascript">
+        $(document).ready(
+            function() {
+                $('.datepicker.form-control').datepicker(
+                
+                );
+            }
+        );
+      </script>
     <!--
   <script type="text/javascript" src="assets/js/chosen.js"></script>
   <script type="text/javascript" src="assets/js/customInput.jquery.js"></script>
