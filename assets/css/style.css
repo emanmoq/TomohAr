@@ -52,8 +52,8 @@ header{
 }
 .topHeader{
     z-index: 0;
-    padding-top:35px;
-    padding-bottom: 20px;
+    padding-top:20px;
+    padding-bottom: 0px;
     width:100%;
 }
 .headerContainer{
@@ -3306,11 +3306,17 @@ width:60% !important;
     #descktopMenu{
         display: block;
     }
-    #mobileTopHeader{
+    #descktopHeader{
         display: block;;
     }
+    #mobileHeader{
+        display: none;
+            }
 @media(min-width:320px)and (max-width:767px){
-    #mobileTopHeader{
+    #mobileHeader{
+        display: block;
+            }
+    #descktopHeader{
         display: none;;
     }
     .mobileNav{
@@ -3733,7 +3739,10 @@ font-size:14px;}
 }
 }
 @media(min-width:768px)and (max-width:1000px){
-    #mobileTopHeader{
+    #mobileHeader{
+        display: block;
+            }
+    #descktopHeader{
         display: none;;
     }
     .langdrop.dropdown-toggle::after{
