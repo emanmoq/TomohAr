@@ -3715,6 +3715,8 @@ font-size:14px;}
         margin-right:0;
         width:200px;
     }
+    .searchFamily .filter .form-group {
+        width: 30%;}
     .form-group.EmptyBtn .searchBtn{
         margin:0;
     }
