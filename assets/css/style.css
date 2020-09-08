@@ -3313,6 +3313,9 @@ width:60% !important;
         display: none;
             }
 @media(min-width:320px)and (max-width:767px){
+    .EventCont .EventImg{
+        height:40%;
+    }
     #mobileHeader{
         display: block;
             }
@@ -3739,6 +3742,9 @@ font-size:14px;}
 }
 }
 @media(min-width:768px)and (max-width:1000px){
+    .EventCont .EventImg{
+        height:40%;
+    }
     #mobileHeader{
         display: block;
             }
@@ -3935,7 +3941,9 @@ section{
     }
 }
 @media(min-width:1001px)and (max-width:1366px){
-
+    .EventCont .EventImg{
+        height:40%;
+    }
     .logo{
         margin-top:20px;
         margin-right:50px;
