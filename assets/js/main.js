@@ -1,5 +1,6 @@
 jQuery(function ($) {
 
+
   new WOW().init();
     
         $(window).scroll(function () {
@@ -159,10 +160,12 @@ jQuery(function ($) {
               },
               600:{
                 items:2,
-                nav:false
+                nav:true,
+                margin:5,
               },
               1000:{
-                nav:false,
+                nav:true,
+                margin:5,
                 items:3
               }
               ,

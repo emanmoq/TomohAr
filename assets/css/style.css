@@ -897,6 +897,7 @@ footer .footerSec:last-child{
 }
 .footerList li {
     margin-bottom:25px;
+    text-align: left;
 }
 .footerList li:hover a{
     color:#F7941E
@@ -915,6 +916,7 @@ footer .footerSec:last-child{
     font-size:24px;
     text-align: center;
     margin-bottom: 27px;
+    margin-right:60px;
 }
 .footerSocial li{
     display: inline-block;
@@ -2253,6 +2255,9 @@ padding:10px;
 .CourseBox td{
     padding:10px;
 }
+.CourseBox .memberShipForm .form-group .form-control{
+    width:95%;
+}
 
 .tableFormgroup.form-group{
     width:100%;
@@ -3316,6 +3321,9 @@ width:60% !important;
                 margin-top:0
                     }
 @media(min-width:320px)and (max-width:767px){
+    .CourseBox{
+        width:100%;
+    }
     .EventCont .EventImg{
         height:55%;
         overflow: hidden;
@@ -3746,6 +3754,9 @@ font-size:14px;}
 }
 }
 @media(min-width:768px)and (max-width:1000px){
+    .CourseBox{
+        width:100%;
+    }
     .profileMenu.sideProfileMenu{
         margin-top:0
             }
@@ -3955,8 +3966,32 @@ section{
     .footerSec{
         margin-bottom:20px;
     }
+    .newsCar .owl-nav button.owl-prev, .ourTeamCar .owl-nav button.owl-prev{
+        left:-27px;
+                    }
+                    .newsCar .owl-nav button.owl-next, .ourTeamCar .owl-nav button.owl-next{
+                        right:0;
+                    }
+                    .ourTeamcarItem{
+                        margin:auto;
+                    }
+                    .ourTeamcarItem{
+                        margin:auto;
+                    }
 }
 @media(min-width:1001px)and (max-width:1300px){
+    .CourseBox{
+        width:100%;
+    }
+    .newsCar .owl-nav button.owl-prev, .ourTeamCar .owl-nav button.owl-prev{
+        left:-27px;
+                    }
+                    .newsCar .owl-nav button.owl-next, .ourTeamCar .owl-nav button.owl-next{
+                        right:0;
+                    }
+                    .ourTeamcarItem{
+                        margin:auto;
+                    }
     .admminmarginRight.form-group {
         margin-left: 50px;
     }
