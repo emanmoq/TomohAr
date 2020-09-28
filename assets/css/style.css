@@ -139,6 +139,8 @@ margin-right:7px;
     border:0;
     left:0;
     text-align: left;
+    background-color: white;
+    width:50px;
 }
 .lang .dropdown-menu{
     color:white;
@@ -147,7 +149,7 @@ margin-right:7px;
     color:#f7941e
 }
 .lang .dropdown-menu .dropdown-item{
-    color:white;
+    color:#97004E;
     font-size:14px;
     padding:5px;
     font-family: a-jannat-lt;
@@ -906,9 +908,13 @@ footer .footerSec:last-child{
     color:#F7941E
 }
 .footerLogo{
-    width:195px;
+    width:250px;
     margin:auto;
     margin-bottom:10px;
+    text-align: center;
+}
+.footerSec .footerLogo p{
+    font-size: 12px;;
 }
 
 .footerSec h4{
@@ -2082,7 +2088,28 @@ padding:50px 0;
 }
    .gallery .image_thumbs.image_thumb{
        height:70%;
+       width:100%;
+       position: relative;
+       display: block;
    }
+   .gallery .image_thumbs.image_thumb:hover:before{
+    opacity: 1;
+    transform: scale(1.1);
+
+    
+       }
+       .gallery .image_thumbs.image_thumb:before{
+      position: absolute;
+      content: "";
+      left:0;
+      top:0;
+      width:100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.4);
+      z-index: 111;
+      transition: all .5s;;
+      opacity: 0;
+    }
    .gallery .image_thumbs.image_thumb img{
        transition: all .5s;;
    }
